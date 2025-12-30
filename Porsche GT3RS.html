@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche GT3 RS - 7 Cudów Motoryzacji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">7 CUDÓW MOTORYZACJI</a>
+        </div>
+        <button class="menu-btn" onclick="openNav()">☰ MENU</button>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">🏠 Strona Główna</a>
+            <a href="BMW M2 Competition.html">1. BMW M2 Competition</a>
+            <a href="Koenigsegg Jesko Absolut.html">2. Koenigsegg Jesko Absolut</a>
+            <a href="Ferrari LaFerrari.html">3. Ferrari LaFerrari</a>
+            <a href="Porsche GT3RS.html">4. Porsche GT3RS</a>
+            <a href="Rolls-Royce Phantom.html">5. Rolls-Royce Phantom</a>
+            <a href="McLaren Speedtail.html">6. McLaren Speedtail</a>
+            <a href="Lamborghini adventador.html">7. Lamborghini Aventador</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 id="Gora">Witaj w świecie motoryzacji</h1>
+        <h1>Porsche GT3 RS</h1>
+        <img src="images/Porsche GT3RS.jpg" alt="Porsche GT3 RS" class="main-img"> <p>Wyścigówka dopuszczona do ruchu. Posiada system DRS i niesamowitą aerodynamikę.</p>
+
+        <table>
+            <tr><th>Cecha</th><th>Wartość</th></tr>
+            <tr><td>Silnik</td><td>4.0L Boxer (6 cyl)</td></tr>
+            <tr><td>Moc</td><td>525 KM</td></tr>
+            <tr><td>Docisk</td><td>860 kg przy 285 km/h</td></tr>
+            <tr><td>0-100</td><td> 3,2 sekundy</td></tr>
+        </table>
+
+        <h3>Dlaczego jest na liście?</h3>
+        <ul>
+            <li>System DRS jak w F1.</li>
+            <li>Regulacja zawieszenia z kierownicy.</li>
+        </ul>
+
+        <div class="video-container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/96Onor1UvKE" title="Porsche 911 GT3 RS Official" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <a href="#Gora">Kliknij, aby przejść na Górę Strony.</a>
+
+    </div>
+    <h2>Siedziba Porsche (Stuttgart)</h2>
+<div class="map-container">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+    src="https://maps.google.com/maps?q=Porsche+Museum+Stuttgart&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+
+    <footer>
+        <p><strong>Wykonanie:</strong> Jakub Grądziel 2TA gr.2</p>
+    </footer>
+
+    <script>
+       function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+</html>
